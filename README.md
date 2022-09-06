@@ -1,3 +1,13 @@
+# Required Dependencies
+
+- date-fns
+- react-date-range
+- react-router-dom
+- Awesome Fonts
+
+without these i don't know anymore.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
