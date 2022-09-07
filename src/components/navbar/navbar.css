@@ -1,8 +1,8 @@
 .navbar{
+    height: 60px;
+    background-color: black;
     display: flex;
     justify-content: center;
-    height: 80px;
-    background-color: hsl(0, 3%, 20%);
     color: white;
 }
 
@@ -18,31 +18,10 @@
     font-size: x-large;
     font-weight: 500;
 }
-.navItems{
-    display: flex;
-    gap: 2em;
-}
-
 
 .navButton{
-    font-family: 'Merriweather', serif;
+    margin-left: 20px;
     border: none;
-    background: #585858;
-    color: #ffffff;
-    font-weight: 100;
-    padding: 14px 24px;
-    text-transform: uppercase;
-    border-radius: 6px;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease 0s;
     cursor: pointer;
-}
-
-.navButton:hover {
-    color: #131111;
-    font-weight: 700;
-    letter-spacing: 3px;
-    background-color: #ffffff;
-    transition: all 0.5s ease 0s;
+    padding: 5px 10px;
 }
