@@ -1,0 +1,90 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.listSearch{
+    flex: 1;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 0 20px 20px 20px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+
+.listSearch button{
+    padding: 10px;
+    background-color: #052999;;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.listResult{
+    flex: 3;
+}
+
+.listItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.listItem input[type=text]{
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.listItem input[type=number]{
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.listItem label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.clickableDate{
+    font-weight: 300;
+    padding: 6px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.listOption{
+    padding: 10px;
+}
+
+.listOptionItem{
+    display: flex;
+    gap: 5px;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.listOptionInput{
+    width: 50px;
+}
+
+.listOptionText{
+    font-size: 15px;
+}

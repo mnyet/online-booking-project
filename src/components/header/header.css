@@ -58,21 +58,23 @@
 }
 
 .headerSearch{
+    border: 1px solid black;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.548);
     padding: 10px;
     position: absolute;
     top: 300px;
     width: 100%;
-    max-width: 1024px;
+    max-width: 1000px;
 }
 
 .headerSearchItem{
     display: flex;
     gap: 20px;
     align-items: center;
+    cursor: pointer;
 }
 
 .headerSearchItem [type=text]{
@@ -87,9 +89,11 @@
 .date{
     position: absolute;
     top: 50px;
+    z-index: 1;
 }
 
 .options{
+    z-index: 1;
     padding: 30px;
     border-radius: 5px;
     background-color: black;
