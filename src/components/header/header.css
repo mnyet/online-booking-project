@@ -1,7 +1,12 @@
+*{
+    font-family: 'Merriweather';
+}
+
 .header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
     url('../../img/header/header-bg.jpg');
+    height: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -49,6 +54,8 @@
 
 .headerBodyTitle{
     font-size: xx-large;
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
 }
 
 .headerBodyButton button{
@@ -65,7 +72,7 @@
     background-color: rgba(0, 0, 0, 0.548);
     padding: 10px;
     position: absolute;
-    top: 300px;
+    bottom: 0px;
     width: 100%;
     max-width: 1000px;
 }
@@ -80,7 +87,23 @@
 .headerSearchItem [type=text]{
     border: none;
     padding: 8px;
+    outline: none;
+    border-radius: 3px;
 }
+
+.signUp{
+    color: black;
+    height: 45px;
+    width: 148px;
+}
+
+.signUp:hover{
+    color: black;
+    text-decoration: underline #8833aa;
+    background: #b379ca;
+}
+
+
 
 .headerSearchText{
     cursor: pointer;
@@ -92,11 +115,15 @@
     z-index: 1;
 }
 
+button{
+    cursor: pointer;
+}
+
 .options{
     z-index: 1;
     padding: 30px;
     border-radius: 5px;
-    background-color: black;
+    background-color: hsl(220, 4%, 32%);
     position: absolute;
     top: 50px;
     display: flex;
@@ -113,6 +140,8 @@
 .optionCounter{
     display: flex;
     gap: 5px;
+    height: 25px;
+    width: 50px;
 }
 
 .optionCounter button{
@@ -123,3 +152,21 @@
 .optionCounter button:disabled{
     cursor: not-allowed;
 }
+
+.icon{
+    color: black;
+}
+
+
+/* Calendar */
+.rdrMonth {
+    background-color: hsl(220, 18%, 86%);
+    color: white;
+
+}
+
+.rdrMonthAndYearWrapper{
+    background-color: hsl(220, 18%, 86%);
+    color: white;
+}
+
