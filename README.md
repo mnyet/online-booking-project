@@ -7,7 +7,7 @@
 
 without these i don't know anymore.
 
-# bear loves aone :D
+bear loves aone :D
 
 # Getting Started with Create React App
 
